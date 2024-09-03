@@ -12,10 +12,10 @@ body{
     height: 100%;
 }
 .nav{
-    
+    padding-top: 2%;
     position: relative;
     display: flex;
-    justify-content: 
+    justify-content: space-between;
     display: flex;
     gap: 20px;
 }
@@ -23,11 +23,15 @@ body{
     display: inline-block;
     text-decoration: none;
     font-weight: 800;
+    padding-top: 5px;
+    padding-inline: 30px;   
 }
-.nav .center{
+.nav .center {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) ;
+  padding-top: 25px;
+  font-size: x-large;
 }
 #hero{
     justify-content: space-between;
